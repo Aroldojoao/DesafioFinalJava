@@ -24,7 +24,7 @@ public class Cadastro_Banco implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long ID;
 	@NotEmpty
-	@Column(name = "nome", length = 10)
+	@Column(name = "nome", length = 50)
 	private String nome;
 	
 	//@Column(name = "sobrenome", length = 30)

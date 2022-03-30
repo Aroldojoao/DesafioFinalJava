@@ -10,7 +10,7 @@ public class HomeController {
 	
 	@GetMapping
 	public String hello() {
-		return " Hello World i can do this motherfuck, ta fluindo uhuuu!!!!!";
+		return " Hello World i can do this, ta fluindo uhuuu!!!!!";
 	}
 	
 }
